@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"net/http"
 
+	"github.com/gilly7/src/server/routes"
 	"github.com/gorilla/mux"
 	"github.com/rs/cors"
-	"monk.com/monk/src/server/routes"
 )
 
 var r *mux.Router
