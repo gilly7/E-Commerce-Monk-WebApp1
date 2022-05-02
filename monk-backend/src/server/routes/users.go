@@ -8,9 +8,9 @@ import (
 	"log"
 	"net/http"
 
+	Database "github.com/gilly7/src/server/database"
 	"github.com/google/uuid"
 	"golang.org/x/crypto/bcrypt"
-	Database "monk.com/monk/src/server/database"
 )
 
 type User struct {

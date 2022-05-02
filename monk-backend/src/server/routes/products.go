@@ -12,8 +12,8 @@ import (
 	"os"
 	"strings"
 
+	Database "github.com/gilly7/src/server/database"
 	"github.com/google/uuid"
-	Database "monk.com/monk/src/server/database"
 )
 
 type Products struct {
